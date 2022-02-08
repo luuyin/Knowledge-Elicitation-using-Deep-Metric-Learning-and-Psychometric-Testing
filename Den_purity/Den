@@ -1,0 +1,4 @@
+#!/bin/bash
+source activate research_image
+python Mutiple_annotators_dendrogram_purity.py
+conda deactivate
